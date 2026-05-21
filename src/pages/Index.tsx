@@ -143,15 +143,15 @@ export default function Index() {
             Маркетинг · Рост · Результат
           </p>
           <h1 className="font-display text-5xl md:text-7xl lg:text-8xl uppercase leading-none text-white mb-8">
-            Делаем так,
+            Помогаем бизнесу
             <br />
-            <span className="text-[#c9a84c]">чтобы клиенты</span>
+            <span className="text-[#c9a84c]">привлекать</span>
             <br />
-            приходили сами
+            клиентов
           </h1>
           <p className="text-[#888] text-lg md:text-xl max-w-xl leading-relaxed mb-12">
-            Advoprom — команда по продвижению бизнеса. Берём проекты под ключ:
-            от рекламы до выстраивания стабильного потока заявок.
+            Небольшая команда Advoprom — занимаемся продвижением бизнеса:
+            реклама, упаковка, настройка потока заявок. Без лишних слов.
           </p>
           <div className="flex flex-wrap gap-4">
             <a
@@ -226,23 +226,23 @@ export default function Index() {
               </h2>
               <div className="space-y-5 text-[#777] leading-relaxed">
                 <p>
-                  Advoprom — молодая команда, которая помогает бизнесу расти. Мы не занимаемся пустыми обещаниями — только конкретными инструментами и понятными результатами.
+                  Advoprom — небольшая команда, которая занимается продвижением бизнеса. Без громких обещаний: разбираемся в нише клиента и делаем конкретные вещи — рекламу, упаковку, настройку потока заявок.
                 </p>
                 <p>
-                  Работаем с проектами из разных ниш и берём на себя полный цикл продвижения: от первой рекламы до выстраивания системы, которая работает без вашего постоянного участия.
+                  Работаем с разными нишами. Не претендуем на звание агентства с многолетней историей — просто делаем своё дело честно и растём вместе с клиентами.
                 </p>
                 <p>
-                  Нам важно не просто запустить рекламу — а сделать так, чтобы клиенты возвращались и рекомендовали вас другим.
+                  Сейчас расширяемся и ищем людей в команду — если интересно работать с нами, напиши напрямую.
                 </p>
               </div>
             </div>
 
             <div className="grid grid-cols-2 gap-px bg-[#1a1a1a]">
               {[
-                { num: "50+", label: "Проектов запущено" },
-                { num: "3×", label: "Средний рост заявок" },
-                { num: "100%", label: "Работа под ключ" },
-                { num: "0", label: "Лишней бюрократии" },
+                { num: "Растём", label: "Команда расширяется" },
+                { num: "Разные", label: "Ниши и проекты" },
+                { num: "Под ключ", label: "Ведём от А до Я" },
+                { num: "Без", label: "Лишней бюрократии" },
               ].map((stat, i) => (
                 <div key={i} className="bg-[#0a0a0a] p-8 text-center">
                   <div className="font-display text-3xl text-[#c9a84c] mb-2">
@@ -262,7 +262,7 @@ export default function Index() {
       <section className="border-t border-b border-[#1a1a1a] bg-[#0d0d0d] py-16">
         <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
           <h3 className="font-display text-2xl md:text-3xl uppercase text-white max-w-md">
-            Готовы обсудить ваш проект?
+            Есть задача? Давай обсудим
           </h3>
           <a
             href="https://t.me/egoradvo"
@@ -338,7 +338,7 @@ export default function Index() {
             Advoprom
           </span>
           <span className="text-xs text-[#333] tracking-wider">
-            © 2024 Advoprom. Все права защищены.
+            © 2026 Advoprom. Все права защищены.
           </span>
         </div>
       </footer>
